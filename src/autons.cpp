@@ -33,10 +33,56 @@ void default_constants() {
 
 
 void test_auton(){
-  chassis.pid_drive_set(12_in, DRIVE_SPEED);
+  // chassis.pid_drive_set(15_in, DRIVE_SPEED);
+  // chassis.pid_wait();
 
-  
+  // chassis.pid_turn_relative_set(90_deg, TURN_SPEED);
+  // chassis.pid_wait_quick_chain();
+
+  // chassis.pid_drive_set(15_in, DRIVE_SPEED);
+  // chassis.pid_wait_quick_chain();
+
+  // chassis.pid_turn_relative_set(-90_deg, TURN_SPEED);
+  // chassis.pid_wait_quick_chain();
+
+  // chassis.pid_drive_set(25_in, DRIVE_SPEED);
+  // chassis.pid_wait_quick_chain();
+
+  // chassis.pid_turn_relative_set(-90_deg, TURN_SPEED);
+  // chassis.pid_wait_quick_chain();
+
+  // chassis.pid_drive_set(15_in, DRIVE_SPEED);
+  // chassis.pid_wait_quick_chain();
+
+  // chassis.pid_turn_relative_set(-90_deg, TURN_SPEED);
+  // chassis.pid_wait_quick_chain();
+
+  // chassis.pid_drive_set(20_in, DRIVE_SPEED);
+  // chassis.pid_wait_quick_chain();
+  // chassis.pid_drive_set(20_in, DRIVE_SPEED);
+  // chassis.pid_wait();
+
+  // chassis.pid_drive_set(60_in, DRIVE_SPEED);
+  // chassis.pid_wait();
+
+
+  // chassis.pid_drive_set(90_deg,TURN_SPEED);
+  // chassis.pid_wait();
+
+  // chassis.pid_drive_set(12_in, DRIVE_SPEED);
+  // chassis.pid_wait();
+
+  // chassis.pid_drive_set(-12_in, DRIVE_SPEED);
+  // chassis.pid_wait();
+
+  // chassis.pid_drive_set(90_deg,TURN_SPEED);
+  // chassis.pid_wait();
+
+  // chassis.pid_drive_set(20_in, DRIVE_SPEED);
+  // chassis.pid_wait();
+
 }
+
 ///
 // Drive Example
 ///
