@@ -30,9 +30,17 @@ void default_constants() {
   chassis.slew_drive_constants_set(7_in, 80);
 }
 
+
+
+void test_auton(){
+  chassis.pid_drive_set(12_in, DRIVE_SPEED);
+
+  
+}
 ///
 // Drive Example
 ///
+
 void drive_example() {
   // The first parameter is target inches
   // The second parameter is max speed the robot will drive at
